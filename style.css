@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+body {
+	background-image: url("background.jpg");
+}
+ a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+ a:hover {
+ 	color: black;
+ }
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #4d5a7d;
+	height: 4em;
+	margin-bottom: 30px;
+
+}
+
+.nav {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.nav_item {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.nav_link {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+.main_content {
+	height: 700px;
+}
+
+
+.main_title {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+
+.content_item {
+	width: 470px;
+	height: 250px;
+	border: 5px solid grey;
+	margin: 5px 5px 5px 5px;
+
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #4d5a7d;
+}
+
+.footer_inner {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	padding-left: 100px;
+}
+
+.footer_item {
+	display: flex;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	align-items: center;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.footer p {
+	font-family: serif;
+}
+
+.footer_icon {
+	width: 70px;
+	height: 70px;
+}
+
+
+
+/* ==================================== service order  ========================================*/
+
+
+.service_title {
+	display: flex;
+	justify-content: center;
+}
+
+.order_title {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+
+
+.service_conteiner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 100px 112px;
+
+}
+
+
+.service_element {
+	width: 30%;
+	text-align: center;
+	background-color: rgba(77, 90, 125, 0.7);
+	margin: 5px 5px;
+}
+
+.e_title {
+	margin-bottom: 15px;
+
+	font-size: 22px;
+	font-weight: 700px;
+	color: white;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+.e_content {
+	margin-bottom: 15px;
+	font-size: 25px;
+	color: white;
+
+}
+
+.e_btn {
+	margin-bottom: 20px;
+	font-size: 20px;
+	background-color: rgba(77, 90, 125, 0);
+	color: white;
+	border: 3px solid;
+	padding: 10px 40px;
+	border-radius: 10px 10px;
+	transition: 0.5s;
+
+}
+.e_btn:hover {
+	background-color: #fff;
+	color: black;
+	border-color: white;
+	transition: 0.3s ease-out;
+	cursor: pointer;
+}
+
+/*============ другий ряд ==============*/
+.e_sec_btn {
+	margin-bottom: 20px;
+	font-size: 20px;
+	background-color: rgba(77, 90, 125, 0);
+	color: white;
+	border: 3px solid;
+	padding: 10px 40px;
+	border-radius: 10px 10px;
+	transition: 0.5s;
+
+}
+.e_sec_btn:hover {
+	background-color: #fff;
+	color: black;
+	border-color: white;
+	transition: 0.3s ease-out;
+	cursor: pointer;
+}
+
+
+
+
+
+/*================================= medical service ========================================*/
+
+
+
+.med_title {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+
+
+.med_element {
+	width: 40%;
+	text-align: center;
+	background-color: rgba(77, 90, 125, 0.7);
+	margin: 20px 20px;
+
+}
+
+
+.e_med_btn {
+	margin-bottom: 30px;
+	font-size: 20px;
+	background-color: rgba(77, 90, 125, 0);
+	color: white;
+	border: 3px solid;
+	padding: 10px 40px;
+	border-radius: 10px 10px;
+	transition: 0.5s;
+
+}
+.e_med_btn:hover {
+	background-color: #fff;
+	color: black;
+	border-color: white;
+	transition: 0.3s ease-out;
+	cursor: pointer;
+}
+
+
+
+
